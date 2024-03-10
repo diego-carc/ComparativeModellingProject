@@ -1,0 +1,37 @@
+
+STAMP Structural Alignment of Multiple Proteins
+
+Version 4.4.2 (6th August 2015)
+ by Robert B. Russell & Geoffrey J. Barton 
+ Please cite PROTEINS, v14, 309-323, 1992
+
+Running roughfit.
+
+    Sc = STAMP score, RMS = RMS deviation, Align = alignment length
+    Len1, Len2 = length of domain, Nfit = residues fitted
+    Secs = no. equivalent sec. strucs. Eq = no. equivalent residues
+    %I = seq. identity, %S = sec. str. identity
+    P(m)  = P value (p=1/10) calculated after Murzin (1993), JMB, 230, 689-694
+            (NC = P value not calculated - potential FP overflow)
+
+     No.  Domain1         Domain2         Sc     RMS    Len1 Len2  Align NFit Eq. Secs.   %I   %S   P(m)
+Pair   1  2wv7            2x8j            9.36   0.36    298  302   303  294 292    0  99.66 100.00 0.00e+00 
+Pair   2  2wv7            6fm9            9.07   0.72    298  293   295  287 285    0  57.19 100.00 4.02e-86 
+Pair   3  2wv7            7xr8            8.77   0.74    298  292   300  281 280    0  55.71 100.00 3.16e-80 
+Pair   4  2wv7            7y6m            7.53   1.00    298  290   301  260 258    0  53.49 100.00 3.97e-68 
+Pair   5  2x8j            6fm9            8.92   0.70    302  293   298  286 285    0  57.54 100.00 3.33e-87 
+Pair   6  2x8j            7xr8            8.52   0.71    302  292   304  277 276    0  56.16 100.00 2.09e-80 
+Pair   7  2x8j            7y6m            7.50   1.05    302  290   301  260 253    0  53.36 100.00 1.64e-66 
+Pair   8  6fm9            7xr8            8.64   0.73    293  292   299  276 275    0  62.55 100.00 9.25e-100 
+Pair   9  6fm9            7y6m            7.52   0.99    293  290   295  253 251    0  60.56 100.00 1.96e-85 
+Pair  10  7xr8            7y6m            7.72   0.91    292  290   299  261 259    0  66.41 100.00 0.00e+00 
+Reading in matrix file ../results/templates_stamp.mat...
+Doing cluster analysis...
+Cluster:  1 (    2wv7  &     2x8j ) Sc  9.35 RMS   0.36 Len 303 nfit 294 
+ See file ../results/templates_stamp.1 for the alignment and transformations
+Cluster:  2 (    6fm9  &     2wv7     2x8j ) Sc  9.29 RMS   0.69 Len 299 nfit 285 
+ See file ../results/templates_stamp.2 for the alignment and transformations
+Cluster:  3 (    7xr8  &     6fm9     2wv7     2x8j ) Sc  9.08 RMS   0.67 Len 307 nfit 277 
+ See file ../results/templates_stamp.3 for the alignment and transformations
+Cluster:  4 (    7y6m  &     7xr8     6fm9     2wv7     2x8j ) Sc  8.62 RMS   0.98 Len 307 nfit 258 
+ See file ../results/templates_stamp.4 for the alignment and transformations
