@@ -39,8 +39,12 @@ hmmalign -o ../results/P11018_templates_hmm.sto ../results/templates.hmm ../resu
 ## Transform alignment to pir formart 
 aconvertMod2.pl -in c -out p <../results/P11018_templates.aln> ../SequenceModelling/P11018_templates.pir
 aconvertMod2.pl -in h -out p <../results/P11018_templates_hmm.sto> ../StructuralModelling/P11018_templates_hmm.pir
-mod9.21 scop_modeling.py
 
+## Run modeller
+### From StructuralModelling
+mod9.21 struct_modeling.py
+### From SequenceModelling
+mod9.21 seq_modelling.py
 
 ## Evaluacion
 
