@@ -1,5 +1,6 @@
 # ComparativeModellingProject
 
+## Pendientes:
 * Escribir reporte
 *   Estructura general
 *   La metodología para generar los modelos prácticamente está en los comentarios del script bash
@@ -27,5 +28,5 @@
 
 ## Conclusion
 
-## Pendientes:
+
 
