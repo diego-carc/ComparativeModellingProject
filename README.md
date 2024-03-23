@@ -1,7 +1,5 @@
 # ComparativeModellingProject
 
-### Pendientes:
-
 * Escribir reporte
 *   Estructura general
 *   La metodología para generar los modelos prácticamente está en los comentarios del script bash
@@ -17,3 +15,17 @@
 *   Copiar y modificar los pdbs de acuerdo a la evauación
 * Segunda evaluación
 * Conclusión
+
+
+## Introduction
+
+## Methods
+
+## Results 
+
+## Discussion
+
+## Conclusion
+
+## Pendientes:
+
