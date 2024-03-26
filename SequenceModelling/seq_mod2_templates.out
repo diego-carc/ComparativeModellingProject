@@ -1,0 +1,22 @@
+
+STAMP Structural Alignment of Multiple Proteins
+
+Version 4.4.2 (6th August 2015)
+ by Robert B. Russell & Geoffrey J. Barton 
+ Please cite PROTEINS, v14, 309-323, 1992
+
+Running roughfit.
+
+    Sc = STAMP score, RMS = RMS deviation, Align = alignment length
+    Len1, Len2 = length of domain, Nfit = residues fitted
+    Secs = no. equivalent sec. strucs. Eq = no. equivalent residues
+    %I = seq. identity, %S = sec. str. identity
+    P(m)  = P value (p=1/10) calculated after Murzin (1993), JMB, 230, 689-694
+            (NC = P value not calculated - potential FP overflow)
+
+     No.  Domain1         Domain2         Sc     RMS    Len1 Len2  Align NFit Eq. Secs.   %I   %S   P(m)
+Pair   1  7xr8            Mod2            8.24   0.54    292  319   311  278 277    0  63.90 100.00 0.00e+00 
+Reading in matrix file seq_mod2_templates.mat...
+Doing cluster analysis...
+Cluster:  1 (    7xr8  &     Mod2 ) Sc  8.24 RMS   0.54 Len 311 nfit 278 
+ See file seq_mod2_templates.1 for the alignment and transformations
