@@ -1,0 +1,44 @@
+
+STAMP Structural Alignment of Multiple Proteins
+
+Version 4.4.2 (6th August 2015)
+ by Robert B. Russell & Geoffrey J. Barton 
+ Please cite PROTEINS, v14, 309-323, 1992
+
+Running roughfit.
+
+    Sc = STAMP score, RMS = RMS deviation, Align = alignment length
+    Len1, Len2 = length of domain, Nfit = residues fitted
+    Secs = no. equivalent sec. strucs. Eq = no. equivalent residues
+    %I = seq. identity, %S = sec. str. identity
+    P(m)  = P value (p=1/10) calculated after Murzin (1993), JMB, 230, 689-694
+            (NC = P value not calculated - potential FP overflow)
+
+     No.  Domain1         Domain2         Sc     RMS    Len1 Len2  Align NFit Eq. Secs.   %I   %S   P(m)
+Pair   1  7y6m            2wv7            7.50   1.01    290  298   302  261 257    0  54.09 100.00 1.95e-69 
+Pair   2  7y6m            2x8j            7.49   1.04    290  302   301  260 253    0  53.75 100.00 1.58e-67 
+Pair   3  7y6m            6f9m            7.49   0.99    290  293   296  254 252    0  60.32 100.00 4.44e-85 
+Pair   4  7y6m            7xr8            7.78   0.88    290  292   297  260 259    0  66.41 100.00 0.00e+00 
+Pair   5  7y6m            Mod1            8.74   0.56    290  319   290  290 290    0  80.34 100.00 0.00e+00 
+Pair   6  2wv7            2x8j            9.36   0.36    298  302   303  294 292    0  99.66 100.00 0.00e+00 
+Pair   7  2wv7            6f9m            9.06   0.72    298  293   295  287 285    0  57.19 100.00 4.02e-86 
+Pair   8  2wv7            7xr8            8.75   0.70    298  292   300  279 279    0  55.91 100.00 1.55e-80 
+Pair   9  2wv7            Mod1            7.96   0.67    298  319   315  278 276    0  52.90 100.00 4.13e-71 
+Pair  10  2x8j            6f9m            8.91   0.70    302  293   298  286 285    0  57.54 100.00 3.33e-87 
+Pair  11  2x8j            7xr8            8.49   0.70    302  292   305  277 275    0  56.36 100.00 1.02e-80 
+Pair  12  2x8j            Mod1            7.98   0.74    302  319   317  279 273    0  53.11 100.00 6.00e-71 
+Pair  13  6f9m            7xr8            8.63   0.70    293  292   299  275 274    0  62.77 100.00 3.85e-100 
+Pair  14  6f9m            Mod1            7.87   0.77    293  319   311  272 272    0  58.46 100.00 5.04e-86 
+Pair  15  7xr8            Mod1            8.15   0.59    292  319   313  277 276    0  64.49 100.00 0.00e+00 
+Reading in matrix file struct_mod1_templates.mat...
+Doing cluster analysis...
+Cluster:  1 (    2wv7  &     2x8j ) Sc  9.36 RMS   0.36 Len 303 nfit 294 
+ See file struct_mod1_templates.1 for the alignment and transformations
+Cluster:  2 (    6f9m  &     2wv7     2x8j ) Sc  9.32 RMS   0.69 Len 299 nfit 285 
+ See file struct_mod1_templates.2 for the alignment and transformations
+Cluster:  3 (    7xr8  &     6f9m     2wv7     2x8j ) Sc  9.10 RMS   0.68 Len 307 nfit 277 
+ See file struct_mod1_templates.3 for the alignment and transformations
+Cluster:  4 (    7y6m  &     Mod1 ) Sc  8.74 RMS   0.56 Len 290 nfit 290 
+ See file struct_mod1_templates.4 for the alignment and transformations
+Cluster:  5 (    7xr8     6f9m     2wv7     2x8j  &     7y6m     Mod1 ) Sc  8.62 RMS   0.78 Len 325 nfit 258 
+ See file struct_mod1_templates.5 for the alignment and transformations

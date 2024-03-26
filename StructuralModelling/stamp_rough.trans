@@ -1,0 +1,33 @@
+% Output from STAMP ROUGH FIT routine
+%  The sequences from the file templates_mod2.domains have been aligned from their
+%  N-terminal ends, andthe resulting equivalences were be used 
+% to generate the superpositions given below.
+% Domains 7y6m onto 2wv7 RMS of 16.527004 on 290 atoms
+% Domains 7y6m onto 2x8j RMS of 17.094616 on 290 atoms
+% Domains 7y6m onto 6f9m RMS of 16.514614 on 290 atoms
+% Domains 7y6m onto 7xr8 RMS of 16.512804 on 290 atoms
+% Domains 7y6m onto Mod2 RMS of 18.093843 on 290 atoms
+./7y6mC.pdb 7y6m { ALL 
+    1.0000     0.0000     0.0000       0.0000 
+    0.0000     1.0000     0.0000       0.0000 
+    0.0000     0.0000     1.0000       0.0000  } 
+./2wv7A.pdb 2wv7 { ALL 
+    0.1090     0.0538     0.9926      20.3252 
+    0.5147     0.8512    -0.1027      27.4035 
+   -0.8504     0.5221     0.0651      85.1254  } 
+./2x8jA.pdb 2x8j { ALL 
+    0.2504     0.2334     0.9396      20.3726 
+    0.3355     0.8895    -0.3104      35.8979 
+   -0.9082     0.3929     0.1444      75.1599  } 
+./6f9mA.pdb 6f9m { ALL 
+   -0.8335     0.3892     0.3920      50.7456 
+   -0.0024     0.7071    -0.7071      14.2685 
+   -0.5524    -0.5903    -0.5885      91.5736  } 
+./7xr8A.pdb 7xr8 { ALL 
+    0.3971     0.4199    -0.8161      54.1145 
+   -0.0831     0.9020     0.4236      -7.8539 
+    0.9140    -0.1004     0.3930      86.7105  } 
+./P11018.B99990002.pdb Mod2 { ALL 
+    0.4629     0.3944     0.7938      26.7439 
+    0.4622     0.6568    -0.5959      38.1866 
+   -0.7564     0.6427     0.1218      84.8157  } 
