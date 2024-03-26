@@ -27,7 +27,7 @@ grep -v "^space" ../results/templates_stamp.aln | grep -v "?" > temp && mv temp 
 
 ## Create HMM
 conda activate hmmer-2.2g
-hmmbuild ../results/templates.hmm ../results/templates_stamp_cleaned.aln 
+hmmbuild ../results/templates.hmm ../results/templates_stamp.aln 
 hmmcalibrate ../results/templates.hmm
 
 ## Align using HMM
@@ -35,7 +35,7 @@ hmmalign -o ../results/P11018_templates_hmm.sto ../results/templates.hmm ../resu
 
 # Strcutural modeling
 
-## We modified the struct_modelling.py file to use the astructural alignment
+## We modified the struct_modelling.py file to use the structural alignment
 ## Transform alignment to pir formart 
 aconvertMod2.pl -in c -out p <../results/P11018_templates.aln> ../SequenceModelling/P11018_templates.pir
 aconvertMod2.pl -in h -out p <../results/P11018_templates_hmm.sto> ../StructuralModelling/P11018_templates_hmm.pir
